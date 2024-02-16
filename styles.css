@@ -1,0 +1,83 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: smaller;
+    margin: 0;
+}
+
+body{
+    background-color: lightgray;
+    margin: 0;
+}
+.title{
+    display: flex;
+    width 100%;
+    max-width: 1560px;
+    margin: 0 auto; 
+    justify-content: center;
+    padding: 10px;
+}
+
+.image{
+    justify-content: space-evenly;
+    align-items: center;
+    padding-left: 6%;
+}
+.wrapper {
+    width 100%;
+    max-width: 1560px;
+    margin: 0 auto; 
+    
+}
+
+.flex-container{
+    display: flex;
+    background-color: gray;
+    flex-wrap: wrap;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+}
+.boxtop{
+    padding-right: 20%;
+    padding-bottom: 3%;
+    padding-left: 5%;
+    padding-top: 5%;
+}
+.box{
+    display: flex;
+    width: 500px;
+    height: 500px;
+    flex: 0 0 500px;
+    flex-flow: column;
+    padding-left: 50px;  
+        
+}
+
+.one{
+    background-color: white;
+    display: inline-block;
+    
+}
+
+
+.two{
+    background-color: white
+    
+
+}
+
+.three{
+    background-color: white;
+}
+.boxtop{
+    display: flex;
+    justify-content: space-between;
+}
+.date{
+    float: right;
+}
+.text2{
+    padding-left: 6%;
+    padding-right: 16%;
+}
